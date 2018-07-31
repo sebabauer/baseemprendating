@@ -1,0 +1,122 @@
+<%= form_with(model: first_name, local: true) do |form| %>
+  <% if first_name.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(first_name.errors.count, "error") %> prohibited this first_name from being saved:</h2>
+
+      <ul>
+      <% first_name.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name, id: :first_name_last_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :maiden_name %>
+    <%= form.text_field :maiden_name, id: :first_name_maiden_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :formatted_name %>
+    <%= form.text_field :formatted_name, id: :first_name_formatted_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phonetic_first_name %>
+    <%= form.text_field :phonetic_first_name, id: :first_name_phonetic_first_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phonetic_last_name %>
+    <%= form.text_field :phonetic_last_name, id: :first_name_phonetic_last_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :formatted_phonetic_name %>
+    <%= form.text_field :formatted_phonetic_name, id: :first_name_formatted_phonetic_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :headline %>
+    <%= form.text_field :headline, id: :first_name_headline %>
+  </div>
+
+  <div class="field">
+    <%= form.label :location %>
+    <%= form.text_field :location, id: :first_name_location %>
+  </div>
+
+  <div class="field">
+    <%= form.label :industry %>
+    <%= form.number_field :industry, id: :first_name_industry %>
+  </div>
+
+  <div class="field">
+    <%= form.label :current_share %>
+    <%= form.text_field :current_share, id: :first_name_current_share %>
+  </div>
+
+  <div class="field">
+    <%= form.label :num_connections %>
+    <%= form.number_field :num_connections, id: :first_name_num_connections %>
+  </div>
+
+  <div class="field">
+    <%= form.label :num_connections_capped %>
+    <%= form.check_box :num_connections_capped, id: :first_name_num_connections_capped %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sumary %>
+    <%= form.text_area :sumary, id: :first_name_sumary %>
+  </div>
+
+  <div class="field">
+    <%= form.label :specialties %>
+    <%= form.text_field :specialties, id: :first_name_specialties %>
+  </div>
+
+  <div class="field">
+    <%= form.label :positions %>
+    <%= form.text_field :positions, id: :first_name_positions %>
+  </div>
+
+  <div class="field">
+    <%= form.label :picture_url %>
+    <%= form.text_field :picture_url, id: :first_name_picture_url %>
+  </div>
+
+  <div class="field">
+    <%= form.label :picture_url_original %>
+    <%= form.text_field :picture_url_original, id: :first_name_picture_url_original %>
+  </div>
+
+  <div class="field">
+    <%= form.label :site_standard_profile_request %>
+    <%= form.text_field :site_standard_profile_request, id: :first_name_site_standard_profile_request %>
+  </div>
+
+  <div class="field">
+    <%= form.label :api_standard_profile_request %>
+    <%= form.text_field :api_standard_profile_request, id: :first_name_api_standard_profile_request %>
+  </div>
+
+  <div class="field">
+    <%= form.label :public_profile_url %>
+    <%= form.text_field :public_profile_url, id: :first_name_public_profile_url %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email_address %>
+    <%= form.text_field :email_address, id: :first_name_email_address %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

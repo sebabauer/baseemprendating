@@ -1,0 +1,114 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Maiden name:</strong>
+  <%= @user.maiden_name %>
+</p>
+
+<p>
+  <strong>Formatted name:</strong>
+  <%= @user.formatted_name %>
+</p>
+
+<p>
+  <strong>Phonetic first name:</strong>
+  <%= @user.phonetic_first_name %>
+</p>
+
+<p>
+  <strong>Phonetic last name:</strong>
+  <%= @user.phonetic_last_name %>
+</p>
+
+<p>
+  <strong>Formatted phonetic name:</strong>
+  <%= @user.formatted_phonetic_name %>
+</p>
+
+<p>
+  <strong>Headline:</strong>
+  <%= @user.headline %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @user.location %>
+</p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @user.industry %>
+</p>
+
+<p>
+  <strong>Current share:</strong>
+  <%= @user.current_share %>
+</p>
+
+<p>
+  <strong>Num connections:</strong>
+  <%= @user.num_connections %>
+</p>
+
+<p>
+  <strong>Num connections capped:</strong>
+  <%= @user.num_connections_capped %>
+</p>
+
+<p>
+  <strong>Sumary:</strong>
+  <%= @user.sumary %>
+</p>
+
+<p>
+  <strong>Specialties:</strong>
+  <%= @user.specialties %>
+</p>
+
+<p>
+  <strong>Positions:</strong>
+  <%= @user.positions %>
+</p>
+
+<p>
+  <strong>Picture url:</strong>
+  <%= @user.picture_url %>
+</p>
+
+<p>
+  <strong>Picture url original:</strong>
+  <%= @user.picture_url_original %>
+</p>
+
+<p>
+  <strong>Site standard profile request:</strong>
+  <%= @user.site_standard_profile_request %>
+</p>
+
+<p>
+  <strong>Api standard profile request:</strong>
+  <%= @user.api_standard_profile_request %>
+</p>
+
+<p>
+  <strong>Public profile url:</strong>
+  <%= @user.public_profile_url %>
+</p>
+
+<p>
+  <strong>Email address:</strong>
+  <%= @user.email_address %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

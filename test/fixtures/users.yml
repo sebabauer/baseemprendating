@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  maiden_name: MyString
+  formatted_name: MyString
+  phonetic_first_name: MyString
+  phonetic_last_name: MyString
+  formatted_phonetic_name: MyString
+  headline: MyString
+  location: MyString
+  industry: 1
+  current_share: MyString
+  num_connections: 1
+  num_connections_capped: false
+  sumary: MyText
+  specialties: MyString
+  positions: MyString
+  picture_url: MyString
+  picture_url_original: MyString
+  site_standard_profile_request: MyString
+  api_standard_profile_request: MyString
+  public_profile_url: MyString
+  email_address: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  maiden_name: MyString
+  formatted_name: MyString
+  phonetic_first_name: MyString
+  phonetic_last_name: MyString
+  formatted_phonetic_name: MyString
+  headline: MyString
+  location: MyString
+  industry: 1
+  current_share: MyString
+  num_connections: 1
+  num_connections_capped: false
+  sumary: MyText
+  specialties: MyString
+  positions: MyString
+  picture_url: MyString
+  picture_url_original: MyString
+  site_standard_profile_request: MyString
+  api_standard_profile_request: MyString
+  public_profile_url: MyString
+  email_address: MyString
